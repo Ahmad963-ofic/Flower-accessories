@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الزهور والإكسسوارات</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4e0d2; /* لون الخلفية السكري */
+            color: #fff;
+        }
+
+        /* شريط الأدوات */
+        .toolbar {
+            background-color: #e28bbf; /* زهري غامق */
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+        }
+
+        .toolbar span {
+            font-weight: bold;
+        }
+
+        .toolbar .note {
+            font-size: 14px;
+            font-style: italic;
+            color: #ffffff;
+        }
+
+        /* التصميم العام */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 20px;
+            color: #6c3b6f; /* لون غامق */
+        }
+
+        /* تخصيص المربعات التي تحتوي على المنتجات */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            background: linear-gradient(135deg, #f5c3d4, #f1a7cb); /* تدرجات لون الزهري الفاتح */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px;
+            text-align: center;
+            width: 30%;
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 18px;
+        }
+
+        /* خانة التواصل */
+        .contact-link {
+            display: block;
+            text-align: center;
+            background-color: #e28bbf;
+            padding: 15px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 10px;
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        /* خانة السعر */
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #6c3b6f;
+            margin-top: 10px;
+        }
+
+        /* التنسيق للمتصفح الصغير */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            .toolbar {
+                font-size: 16px;
+            }
+
+            .product h2 {
+                font-size: 20px;
+            }
+
+            .product p {
+                font-size: 16px;
+            }
+
+            .contact-link {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+
+        /* تنسيق شريط الأدوات للأجهزة الكبيرة */
+        @media (min-width: 769px) {
+            .container {
+                padding: 40px;
+            }
+
+            .products {
+                flex-direction: row;
+            }
+
+            .product {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- شريط الأدوات -->
+    <div class="toolbar">
+        <span>متجر الزهور والإكسسوارات بإدارة ثراء أحمد</span>
+        <div class="note">يرجى ارسال رقم المنتج المراد شرائه عبر واتساب للحصول على التفاصيل الكاملة (زر التواصل في آخر الموقع)</div>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <h1>أحدث الزهور والإكسسوارات لدينا</h1>
+
+        <!-- قائمة المنتجات -->
+        <div class="products">
+            <!-- زهرة 1 -->
+            <div class="product">
+                <img src="./IMG-20250130-WA0020.jpg" alt="اكسسوار 1">
+                <h2>1. عبير الفيروز</h2>
+            </div>
+            <!-- زهرة 2 -->
+            <div class="product">
+                <img src="./IMG-20250130-WA0018.jpg" alt="زهرة 2">
+                <h2>2.  اسود ملكي</h2>
+            </div>
+            <!-- زهرة 3 -->
+            <div class="product">
+                <img src="
+                ./IMG-20250130-WA0017.jpg" alt="زهرة 3">
+                <h2>3. أطياف ملونة </h2>
+            </div>
+            <!-- إكسسوار 1 -->
+            <div class="product">
+                <img src="./IMG-20250130-WA0014.jpg" alt="إكسسوار 1">
+                <h2>4.  احمر الفضة </h2>
+
+            </div>
+            <!-- إكسسوار 2 -->
+            <div class="product">
+                <img src="./IMG-20250130-WA0015.jpg" alt="إكسسوار 2">
+                <h2>5. لمسة ملكية </h2>
+            </div>
+            <!-- إكسسوار 3 -->
+            <div class="product">
+                <img src="
+                ./IMG-20250130-WA0013.jpg" alt="إكسسوار 3">
+                <h2>6. ندى الورد 
+                </h2>
+
+            </div>
+                        <div class="product">
+                <img src="./IMG-20250130-WA0012.jpg" alt="إكسسوار 3">
+                <h2>7. الشفق الأحمر 
+                
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0011.jpg" alt="إكسسوار 3">
+                <h2>8. ذهب
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0010.jpg" alt="إكسسوار 3">
+                <h2>9. زمرّد  
+                </h2>
+
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0009.jpg" alt="إكسسوار 3">
+                <h2>10.حلقات ذهبية   
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0007.jpg" alt="إكسسوار 3">
+                <h2>11. أطياف ملونة(٢)  
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0008.jpg" alt="إكسسوار 3">
+                <h2>12.  فخامة الليل
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0006.jpg" alt="إكسسوار 3">
+                <h2>13. ذهب الغابة  
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0005.jpg" alt="إكسسوار 3">
+                <h2> 14.  أحمر أنيق 
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0004.jpg" alt="إكسسوار 3">
+                <h2>15.أبيض لؤلؤي 
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0003.jpg" alt="إكسسوار 3">
+                <h2>16. جوهرة الليل  
+                </h2>
+            </div>
+            <div class="product">
+                <img src="./IMG-20250130-WA0002.jpg" alt="إكسسوار 3">
+                <h2>17.انعكاسات ليلية  
+                </h2>
+            </div>
+        </div>
+
+        <!-- رابط التواصل -->
+        <a href="tel:+963 940 351 648" class="contact-link">تواصل معنا</a>
+    </div>
+</body>
+</html>
